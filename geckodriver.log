@@ -1,0 +1,42 @@
+1651773174691	geckodriver	INFO	Listening on 127.0.0.1:60202
+1651773177825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60203" "-no-remote" "-profile" "C:\\Users\\Ortega\\AppData\\Local\\Temp\\rust_mozprofileqLJJ66"
+1651773178941	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ortega\\AppData\\Local\\Temp\\rust_mozprofileqLJJ66\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60203/devtools/browser/f050db1a-8494-46fd-a518-808f1db05558
+1651773182895	Marionette	INFO	Listening on port 60208
+1651773183196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1651668784, line 6289: unreachable code after return statement
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1651668784, line 6105: Error: Expected: '<assignment:568645>' to be present in the adapter provided payload, but it was not found.
+1651773242856	Marionette	INFO	Stopped listening on port 60208
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "60345" "-no-remote" "-profile" "C:\\Users\\Ortega\\AppData\\Local\\Temp\\rust_mozprofilevt3Zmf"
+1651773232718	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ortega\\AppData\\Local\\Temp\\rust_mozprofilevt3Zmf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60345/devtools/browser/03d2fa15-ad17-4c0c-894e-4c7adcb98d8f
+1651773235661	Marionette	INFO	Listening on port 60350
+1651773235900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://stepik.azureedge.net/static/frontend-build/vendor.js?v=1651668784, line 6289: unreachable code after return statement
+1651773237865	Marionette	INFO	Stopped listening on port 60350
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1652184005107	geckodriver	INFO	Listening on 127.0.0.1:63558
+1652184008200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63559" "-no-remote" "-profile" "C:\\Users\\Ortega\\AppData\\Local\\Temp\\rust_mozprofiledHMpMh"
+1652184009486	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Ortega\\AppData\\Local\\Temp\\rust_mozprofiledHMpMh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63559/devtools/browser/38700307-bc12-4447-aa00-228df42287b3
+1652184012701	Marionette	INFO	Listening on port 63565
+1652184013093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/ru/, line 374: ReferenceError: oscar is not defined
+1652184015866	Marionette	INFO	Stopped listening on port 63565
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Ortega\AppData\Local\Temp\rust_mozprofiledHMpMh\protections.sqlite
